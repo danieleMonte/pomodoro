@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(135deg, #f3e7e9, #e3eeff);
+}
+.container {
+    max-width: 600px;
+}
+.task-name {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.task-name:hover {
+    color: #007bff;
+}
+.list-group-item {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+.input-group input {
+    transition: border 0.3s;
+    border-radius: 10px;
+}
+.input-group input:focus {
+    border: 2px solid #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.card {
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+.progress-bar {
+    border-radius: 20px;
+}
